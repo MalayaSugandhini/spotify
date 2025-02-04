@@ -39,18 +39,21 @@ nav ul li{
     font-size: 1.3rem;
 }
 .container{
-    min-height: 62vh;
+    min-height: 57vh;
     background-color: black;
     color: white;
     display: flex;
-    margin: 40px auto;
-    width: 55%;
+    margin: 25px auto;
+    width: 50%;
     background-image: url('67-Rahman.jpg');
-    
+    border-radius: 12px;
+    padding: 34px;
 }
 .bottom{
-    position: sticky;
+    position: fixed;
     bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: black;
     height: 130px;
     display: flex;
@@ -58,7 +61,6 @@ nav ul li{
     justify-content: center;
     color: white;
     flex-direction: column;
-    
 }
 
 .icons{
@@ -72,10 +74,45 @@ nav ul li{
 
 #myProgressBar{
     width: 80vw;
-    text-align: center;
+    
 }
 
-.songList h1{
-    padding: 10px 10px;
 
+.songItem{
+    height: 35px;
+    display:flex;
+    background-color: white;
+    color: black;
+    width: 40%;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    padding: 0 7px;
+    
+    
+
+
+
+}
+
+.songItem img{
+    width: 35px;
+    height: 35px; /* Ensure it's a perfect circle */
+    border-radius: 50%; /* Make it round */
+    object-fit: cover;
+
+}
+.timestamp{
+    margin: 0 10px; /* Adjust margin if needed */
+    display: flex;
+    align-items: center;
+    gap: 6px; /* Adds space between time and play button */
+
+}
+
+.songlistplay{
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
