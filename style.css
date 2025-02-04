@@ -39,12 +39,14 @@ nav ul li{
     font-size: 1.3rem;
 }
 .container{
-    min-height: 60vh;
+    min-height: 62vh;
     background-color: black;
     color: white;
     display: flex;
     margin: 40px auto;
-    width: 70%;
+    width: 55%;
+    background-image: url('67-Rahman.jpg');
+    
 }
 .bottom{
     position: sticky;
@@ -56,6 +58,7 @@ nav ul li{
     justify-content: center;
     color: white;
     flex-direction: column;
+    
 }
 
 .icons{
@@ -70,4 +73,9 @@ nav ul li{
 #myProgressBar{
     width: 80vw;
     text-align: center;
+}
+
+.songList h1{
+    padding: 10px 10px;
+
 }
