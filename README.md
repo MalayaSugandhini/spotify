@@ -44,7 +44,7 @@ This project is built using core web technologies:
 
 ## How to Use
 
-1. Open the **[Live Demo](#)** in your preferred web browser.
+1. Open the **[Live Demo](https://malayasugandhini.github.io/spotify/)** in your preferred web browser.
 2. Browse through the available songs.
 3. Click on the **play** button to start listening.
 4. Use the playback controls (**play, pause, skip**) to navigate your playlist.
